@@ -3,8 +3,15 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
   title: 'Sheon Venrick Samaniego — Web & Mobile developer',
-  description: 'The portfolio of Sheon Venrick Samaniego, an aspiring web and mobile developer specialized in creating fun and fresh expereinces for users.',
+  description: 'The portfolio of Sheon Venrick Samaniego, an Information Technology student specialized in creating fun and fresh experiences for users.',
+  openGraph: {
+    title: 'Sheon Venrick Samaniego — Web & Mobile developer',
+    description: 'The portfolio of Sheon Venrick Samaniego, an Information Technology student specialized in creating fun and fresh experiences for users.',
+    type: 'website',
+    siteName: 'Sheon Venrick Samaniego',
+  },
 }
 
 export const viewport: Viewport = {
