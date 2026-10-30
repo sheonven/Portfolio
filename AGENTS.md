@@ -47,3 +47,13 @@ Not a monorepo, no backend, no CMS — all content is hardcoded client-side.
   no content layer, components are not split per section yet.
 - No environment variables are required for dev/build; `.env*.local` is gitignored.
 - No existing `AGENTS.md`, `CLAUDE.md`, CI workflows, or pre-commit config to reconcile with.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+## This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->
