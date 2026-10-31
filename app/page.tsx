@@ -91,7 +91,7 @@ export default function Page() {
             <button className="button button-primary" onClick={() => jump('work')}>Explore my work</button><button className="text-button" onClick={() => jump('contact')}>Let&apos;s talk</button></div>
         </div>
         <div className="hero-art" aria-hidden="true"><div className="art-ring ring-one" /><div className="art-ring ring-two" /><div className="art-label">Design<br /><span>with intent</span></div><div className="art-corner">01 / 06</div></div>
-        <div className="scroll-cue"><span>Scroll to explore</span><i /></div>
+        
       </section>
 
       <section id="about" className="section-shell section about-section">
