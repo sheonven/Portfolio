@@ -98,8 +98,7 @@ export default function Page() {
         <div className="about-grid">
           <div className="profile-card">
             <div className="portrait">
-              <div className="portrait-head" />
-              <div className="portrait-body" />
+              <img className="portrait-img" src="/images/Profile.png" alt="Sheon Venrick Samaniego" />
               </div>
               <div className="profile-meta">
                 <strong>Sheon Venrick Samaniego</strong><span>Web and <span className="green">Mobile</span> Developer</span>
